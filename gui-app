@@ -1,0 +1,13 @@
+First Use SHELL Variable ( DISPLAY ) in while Launching Conatiner
+and,
+Also used ( Host ) Network
+
+# docker run -it --env="DISPLAY" --network host --name gui_app centos:8
+
+after this, INSTALL GUI Software
+
+# yum install firefox -y
+
+# yum install gedit -y
+
+and, many more....
